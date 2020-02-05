@@ -1,0 +1,51 @@
+@font-face {
+ font-family: "Triforce";
+ src: url("font/Triforce.ttf");
+}
+.zelda {
+  font-family: "Triforce";
+}
+
+body{
+  color: yellow;
+  background-color: #00FFFF;
+  /*background-image: url("images/");*/
+  background: cover;
+  font-family: "comic sans ms";
+  text-align: center;
+}
+
+
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+#pp {
+  width: 350px;
+  height: 350px;
+}
+
+li{
+  list-style: none;
+}
+
+.change_color_green a{
+  color: #00FF00
+}
+
+#hadoken {
+  width: 275px;
+  height: 200px;
+}
+#mother {
+  display :flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#child div{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
