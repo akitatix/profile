@@ -9,7 +9,7 @@
 body{
   color: yellow;
   background-color: black;
-  /*background-image: url("images/");*/
+  background-image: url("images/giphy.gif");
   background: cover;
   font-family: "comic sans ms";
   text-align: center;
@@ -42,12 +42,12 @@ li{
 #mother {
   display :flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: space-around;
+  flex-grow: 1;
 }
-#child div{
-  width: 100px;
-  height: 100px;
-  margin: auto;
+.child{
+  width: 500px;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -64,6 +64,7 @@ li{
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
+
     width: 300px;
   }
 }
